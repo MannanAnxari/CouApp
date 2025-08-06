@@ -18,7 +18,7 @@ const Layout = ({ children, title = { DEFAULT_TITLE }, metaTitle = { DEFAULT_TIT
         <>
             <Head>
                 <link rel="icon" type="image/png" sizes="32x32" href={data?.url + "/" + data?.logo?.favicon || ''}/>
-                <meta name='impact-site-verification' value='db1d387b-1aa9-4286-a860-11032abe99e9'/>
+                <meta name='impact-site-verification' value='db1d387b-1aa9-4286-a860-11032abe99e9'/> 
                 <link href="/css/fontawesome-all.css" rel="stylesheet"/>
                 <link href="/css/flaticon.css" rel="stylesheet"/>
                 <link href="/bootstrap.min.css" rel="stylesheet"/>
